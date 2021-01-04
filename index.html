@@ -6,17 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-themeable/dist/css/theme-simple.css">
   <link rel="shortcut icon" href="/favicon.ico" type="image/ico"/>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Merx Pedidos',
+      auto2top: true,
       loadSidebar: true,
+      name: 'Merx Pedidos',
       search: {
-        paths: [],
+        depth: 6,
+        paths: [
+          '/',
+          '/docs/pedido-emissao'
+        ],
         placeholder: 'Pesquisar...',
         noData: 'Nenhum resultado foi encontrado',
         hideOtherSidebarContent: false
@@ -25,6 +30,7 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
