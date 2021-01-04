@@ -1,0 +1,33 @@
+{
+  "name": "merx-docs",
+  "version": "1.0.0",
+  "description": "Merx - Base de conhecimento",
+  "author": "Leandro Guindani Gehlen",
+  "license": "ISC",
+  "homepage": "https://github.com/solutosoft/merx-docs#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "deploy": "gh-pages-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solutosoft/merx-docs.git"
+  },
+  "keywords": [
+    "merx",
+    "documentacao"
+  ],
+  "devDependencies": {
+    "gh-pages-deploy": "^0.5.1"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "docs",
+    "prep": [
+      "build:doc"
+    ],
+    "commit": "Atualizacao da documentacao",
+    "noprompt": true
+  }
+}
