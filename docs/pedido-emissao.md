@@ -20,7 +20,7 @@ Para realizar um pedido é necessário:
 
 5. Selecione a aba **Resumo**, verifique se os dados estão corretos e confirme o pedido
 
-![Confirmação do pedido](/img/pedido-confirmacao.png)
+![Confirmação do pedido](../img/pedido-confirmacao.png)
 
 6. Após o pedido estar confirmado selecione a opção sincronizar para transmitir os dados armazenados no dispositivo, selecionando uma das opções abaixo
 
